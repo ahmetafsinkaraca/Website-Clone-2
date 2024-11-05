@@ -1,0 +1,2049 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-AU-Compatible" content='IE=edge'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="path/to/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" href="../../assets/image/tuseb-logo-tr.png" type="image/x-icon">
+    <link type="text/css" href="../../assets/css/style.css" rel="stylesheet">
+    <link type="text/css" href="../../assets/css/responsive.css" rel="stylesheet">
+    <title>Türkiye Sağlık Enstitüleri Başkanlığı (TÜSEB)</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#scrollTopButton" data-bs-offset="0">
+
+
+    <!-- Burada topbar kısmı var -->
+    <div class="container-fluid header-top" id="scrolltopbutton">
+        <div class="header-top-container-left">
+            <div>
+                <a class="header-top-container-text" href="https://turkovac.tuseb.gov.tr/">TURKOVAC</a>
+            </div>
+
+            <div class="header-container-line" aria-current="page" href="#"></div>
+
+            <div>
+                <a class="header-top-container-text" href="https://tbys.tuseb.gov.tr/#/aktifcagrilistesidispanel">TBYS
+                    GİRİŞ</a>
+            </div>
+        </div>
+
+
+        <div class="header-top-container-right">
+            <div class="header-container-right-content">
+                <div class="btn-group dropstart" id="group-container">
+                    <input class="dropdown-menu header-dropdown-menu-container me-0" type="search" id="dropdown-menu-search"
+                        placeholder="ARAMA" aria-label="Search" data-bs-auto-close="false" />
+                    <button class="btn header-container-search" data-bs-toggle="dropdown" aria-expanded="false"
+                        id="btn-search">
+                        <i class="bi bi-search header-container-search-icon"></i>
+                    </button>
+                </div>
+
+                <div class="header-container-line" aria-current="page" href="#"></div>
+
+                <div>
+                    <svg focusable="false" data-prefix="fas" data-icon="language"
+                        class="svg-inline--fa fa-language header-container-svg text-light" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                        <path fill="currentColor"
+                            d="M0 128C0 92.7 28.7 64 64 64H256h48 16H576c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H320 304 256 64c-35.3 0-64-28.7-64-64V128zm320 0V384H576V128H320zM178.3 175.9c-3.2-7.2-10.4-11.9-18.3-11.9s-15.1 4.7-18.3 11.9l-64 144c-4.5 10.1 .1 21.9 10.2 26.4s21.9-.1 26.4-10.2l8.9-20.1h73.6l8.9 20.1c4.5 10.1 16.3 14.6 26.4 10.2s14.6-16.3 10.2-26.4l-64-144zM160 233.2L179 276H141l19-42.8zM448 164c11 0 20 9 20 20v4h44 16c11 0 20 9 20 20s-9 20-20 20h-2l-1.6 4.5c-8.9 24.4-22.4 46.6-39.6 65.4c.9 .6 1.8 1.1 2.7 1.6l18.9 11.3c9.5 5.7 12.5 18 6.9 27.4s-18 12.5-27.4 6.9l-18.9-11.3c-4.5-2.7-8.8-5.5-13.1-8.5c-10.6 7.5-21.9 14-34 19.4l-3.6 1.6c-10.1 4.5-21.9-.1-26.4-10.2s.1-21.9 10.2-26.4l3.6-1.6c6.4-2.9 12.6-6.1 18.5-9.8l-12.2-12.2c-7.8-7.8-7.8-20.5 0-28.3s20.5-7.8 28.3 0l14.6 14.6 .5 .5c12.4-13.1 22.5-28.3 29.8-45H448 376c-11 0-20-9-20-20s9-20 20-20h52v-4c0-11 9-20 20-20z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+
+
+            <div>
+                <button class="btn header-container-language-text">
+                    <span>TR</span>
+                </button>
+            </div>
+
+            <div class="header-container-line" aria-current="page" href="#"></div>
+
+            <div>
+                <button class="btn header-container-language-text">
+                    <span>ENG</span>
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Burada bottombar kısmı var -->
+    <div class="header-bottom">
+        <nav class="navbar navbar-bottombar navbar-expand-lg" id="navbarbottom">
+            <div class=" container">
+
+                <div>
+                    <a href="/">
+                        <img class="header-container-bottom-logo-left" src="../../assets/image/tuseb-logo-tr.png" alt="tuseb-logo">
+                    </a>
+                </div>
+
+
+                <div class="" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a href="/" class="nav-link dropdown-toggle header-container-dropdown-toggle" role="button">
+                                Anasayfa
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <span class="nav-link dropdown-toggle header-container-dropdown-toggle" role="button"
+                                data-bs-auto-close="outside"> Kurumsal <i class="bi bi-caret-down-fill header-bottom-fill-icon"></i>
+                            </span>
+                            <ul class="dropdown-menu header-dropdown-menu">
+                                <li><a class="dropdown-item header-dropdown-item" href="#">Hakkımızda</a></li>
+                                <li><a class="dropdown-item header-dropdown-item" href="#">Yönetim Kurulu</a></li>
+                                <li><a class="dropdown-item header-dropdown-item" href="#">Üst Yönetim</a></li>
+                                <li class="dropend dropdown header-dropdown">
+                                    <a class="dropdown-item dropdown-toggle header-dropdown-toggle" role="text">Tüseb
+                                        Başkanı <i class="fa-solid fa-caret-right header-dropdown-toggle-icon"></i></a>
+                                    <ul class="dropdown-menu header-dropdown-menu-sub">
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">Özgeçmiş</a></li>
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">Akademik ve
+                                                Bilimsel Etkinlikler</a></li>
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">Röportaj ve
+                                                Yayınlar</a></li>
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">Başkan
+                                                Fotoğrafları</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropend dropdown header-dropdown">
+                                    <a class="dropdown-item dropdown-toggle header-dropdown-toggle" role="text">Teşkilat
+                                        Yapısı <i class="fa-solid fa-caret-right header-dropdown-toggle-icon"></i></a>
+                                    <ul class="dropdown-menu header-dropdown-menu-sub">
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">Özel Kalem
+                                                Müdürlüğü</a></li>
+                                        <li class="dropend dropdown">
+                                            <a class="dropdown-item dropdown-toggle header-dropdown-toggle"
+                                                role="text">Genel Sekreterlik <i
+                                                    class="fa-solid fa-caret-right header-dropdown-toggle-icon"></i></a>
+                                            <ul class="dropdown-menu header-dropdown-menu-sub">
+                                                <li><a href="#" class="dropdown-item header-dropdown-item">Dış
+                                                        İlişkiler Daire Başkanlığı</a>
+                                                </li>
+                                                <li><a href="#" class="dropdown-item header-dropdown-item">Hukuk
+                                                        Hizmetleri Daire Başkanlığı</a>
+                                                </li>
+                                                <li class="dropend dropdown">
+                                                    <a class="dropdown-item dropdown-toggle header-dropdown-toggle"
+                                                        role="text">Strateji Geliştirme
+                                                        Daire Başkanlığı <i class="fa-solid fa-caret-right header-dropdown-toggle-icon"></i></a>
+                                                    <ul class="dropdown-menu header-dropdown-menu-sub">
+                                                        <li><a href="#"
+                                                                class="dropdown-item header-dropdown-item">Muhasebe
+                                                                ve Kesin Hesap
+                                                                Birimi</a></li>
+                                                        <li><a href="#" class="dropdown-item header-dropdown-item">İç
+                                                                Kontrol Birimi</a></li>
+                                                        <li><a href="#" class="dropdown-item header-dropdown-item">Bütçe
+                                                                ve
+                                                                Performans
+                                                                Birimi</a>
+                                                        </li>
+                                                        <li><a href="#"
+                                                                class="dropdown-item header-dropdown-item">Strateji
+                                                                Yönetim ve
+                                                                Planlama
+                                                                Birimi</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropend dropdown">
+                                                    <a class="dropdown-item dropdown-toggle header-dropdown-toggle"
+                                                        role="text">Yönetim
+                                                        Hizmetleri
+                                                        Daire Başkanlığı <i class="fa-solid fa-caret-right header-dropdown-toggle-icon"></i></a>
+                                                    <ul class="dropdown-menu header-dropdown-menu-sub">
+                                                        <li><a href="#" class="dropdown-item header-dropdown-item">Bilgi
+                                                                İşlem Birimi</a>
+                                                        </li>
+                                                        <li><a href="#" class="dropdown-item header-dropdown-item">İnsan
+                                                                Kaynakları
+                                                                Birimi</a>
+                                                        </li>
+                                                        <li><a href="#"
+                                                                class="dropdown-item header-dropdown-item">Destek
+                                                                Hizmetleri
+                                                                Birimi</a>
+                                                        </li>
+                                                        <li><a href="#" class="dropdown-item header-dropdown-item">İdari
+                                                                ve
+                                                                Mali İşler
+                                                                Birimi</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropend dropdown">
+                                            <a class="dropdown-item dropdown-toggle header-dropdown-toggle"
+                                                role="text">Başkan Yardımcısı 1 <i
+                                                    class="fa-solid fa-caret-right header-dropdown-toggle-icon"></i></a>
+                                            <ul class="dropdown-menu header-dropdown-menu-sub">
+                                                <li><a href="#" class="dropdown-item header-dropdown-item">Sağlık
+                                                        Endüstrileri Yerlileşme ve
+                                                        Proje Geliştirme Daire Başkanlığı</a></li>
+                                                <li><a href="#" class="dropdown-item header-dropdown-item">Teknoloji
+                                                        Transfer Ofisi</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropend dropdown">
+                                            <a class="dropdown-item dropdown-toggle header-dropdown-toggle"
+                                                role="text">Başkan Yardımcısı 2 <i
+                                                    class="fa-solid fa-caret-right header-dropdown-toggle-icon"></i></a>
+                                            <ul class="dropdown-menu header-dropdown-menu-sub">
+                                                <li><a href="#" class="dropdown-item header-dropdown-item">Proje
+                                                        Yönetimi ve Destek Daire
+                                                        Başkanlığı</a></li>
+                                                <li><a href="#" class="dropdown-item header-dropdown-item">Proje
+                                                        Destek Politikaları
+                                                        Birimi</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">Başkan Yardımcısı
+                                                3</a></li>
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">Enstitü
+                                                Başkanlıkları</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropend dropdown header-dropdown">
+                                    <a class="dropdown-item dropdown-toggle header-dropdown-toggle" role="text">Mevzuat
+                                        <i class="fa-solid fa-caret-right header-dropdown-toggle-icon"></i>
+                                    </a>
+                                    <ul class="dropdown-menu header-dropdown-menu-sub">
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">Kanunlar</a></li>
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">Cumhurbaskanlığı
+                                                Kararnameleri</a></li>
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">Yönetmelikler</a>
+                                        </li>
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">Usul ve
+                                                Esaslar</a></li>
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">Genelgeler</a>
+                                        </li>
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">Yönergeler</a>
+                                        </li>
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">Kamu Etik Davranış
+                                                Kuralları</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item header-dropdown-item" href="#">Mali Duyurular</a></li>
+                                <li><a class="dropdown-item header-dropdown-item" href="#">Faliyet Raporları</a></li>
+                                <li><a class="dropdown-item header-dropdown-item" href="#">Stratejik Planlar</a></li>
+                                <li class="dropend dropdown header-dropdown">
+                                    <a class="dropdown-item dropdown-toggle header-dropdown-toggle" role="text">İç
+                                        Kontrol <i class="fa-solid fa-caret-right header-dropdown-toggle-icon"></i></a>
+                                    <ul class="dropdown-menu header-dropdown-menu-sub">
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">İç Kontrol
+                                                Hakkında</a></li>
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">Eylem Planları</a>
+                                        </li>
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">Değerlendirme
+                                                Raporları</a></li>
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">İç Kontrol
+                                                Dökümanları</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item header-dropdown-item" href="#">Performans Programları</a>
+                                </li>
+                                <li><a class="dropdown-item header-dropdown-item" href="#">Arabuluculuk Komisyonu</a>
+                                </li>
+                                <li><a class="dropdown-item header-dropdown-item" href="#">İnsan Kaynakları</a></li>
+                                <li class="dropend dropdown header-dropdown">
+                                    <a class="dropdown-item dropdown-toggle header-dropdown-toggle" role="text">Yayınlar
+                                        <i class="fa-solid fa-caret-right header-dropdown-toggle-icon"></i></a>
+                                    <ul class="dropdown-menu header-dropdown-menu-sub">
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">TÜSEB Dergisi</a>
+                                        </li>
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">TÜSEB 2040
+                                                Strateji ve Vizyon Çalıştayı
+                                                Raporu</a></li>
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">Klinik
+                                                Araştırmalar Mevcut Durum ve
+                                                Öneriler
+                                                Çalıştay Raporu</a></li>
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">Türk Devletleri
+                                                Teşkilatı 8. Türk Tıp
+                                                Dünyası
+                                                Kurultayı Çalıştay Sonuç Raporu</a></li>
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">Analizler ve
+                                                Raporlar</a></li>
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">Kitaplar ve Kitap
+                                                Bölümleri</a></li>
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">Rehberler</a></li>
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">Röportajlar</a>
+                                        </li>
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">TÜSEB Geleceğin
+                                                Pandemileri Sempozyumu
+                                                Raporu</a></li>
+                                        <li><a href="#" class="dropdown-item header-dropdown-item">9. Türk Tıp
+                                                Dünyası Kurultayı Raporu</a>
+                                        </li>
+                                        <li class="dropend dropdown">
+                                            <a class="dropdown-item dropdown-toggle header-dropdown-toggle"
+                                                role="text">Makaleler <i class="fa-solid fa-caret-right header-dropdown-toggle-icon"></i></a>
+                                            <ul class="dropdown-menu header-dropdown-menu-sub">
+                                                <li><a href="#" class="dropdown-item header-dropdown-item">Sağlıkta
+                                                        Çözüm Teknolojide</a>
+                                                </li>
+                                                <li><a href="#" class="dropdown-item header-dropdown-item">COVID-19’da
+                                                        ‘fikirden ürüne’ etkin
+                                                        güç: TÜSEB</a></li>
+                                                <li><a href="#" class="dropdown-item header-dropdown-item">TÜSEB’in
+                                                        Biyoteknoloji Alanındaki
+                                                        AR-GE Faaliyet ve Destekleri</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item header-dropdown-item" href="#">Teşkilat Şeması</a></li>
+                                <li><a class="dropdown-item header-dropdown-item" href="#">Yerleşkelerimiz</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <span class="nav-link dropdown-toggle header-container-dropdown-toggle" role="button"
+                                data-bs-auto-close="outside">Enstitüler <i class="bi bi-caret-down-fill"></i>
+                            </span>
+                            <ul class="dropdown-menu header-dropdown-menu">
+                                <li><a class="dropdown-item header-dropdown-item" href="#">Türkiye Anne Çocuk ve
+                                        Ergen Sağlığı Enstitüsü</a>
+                                </li>
+                                <li><a class="dropdown-item header-dropdown-item" href="#">Türkiye Biyoteknoloji
+                                        Enstitüsü</a></li>
+                                <li><a class="dropdown-item header-dropdown-item" href="#">Türkiye Kanser
+                                        Enstitüsü</a></li>
+                                <li><a class="dropdown-item header-dropdown-item" href="#">Türkiye Halk Sağlığı ve
+                                        Kronik Hastalıklar
+                                        Enstitüsü</a></li>
+                                <li><a class="dropdown-item header-dropdown-item" href="#">Türkiye Sağlık Hizmetleri
+                                        Kalite ve Akreditasyon
+                                        Enstitüsü</a></li>
+                                <li><a class="dropdown-item header-dropdown-item" href="#">Türkiye Sağlık
+                                        Politikaları Enstitüsü</a></li>
+                                <li><a class="dropdown-item header-dropdown-item" href="#">Türkiye Aşı Enstitüsü</a>
+                                </li>
+                                <li><a class="dropdown-item header-dropdown-item" href="#">Türkiye Sağlık Veri
+                                        Araştırmaları ve Yapay Zeka
+                                        Uygulamaları Enstitüsü</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <span class="nav-link dropdown-toggle header-container-dropdown-toggle" role="button"
+                                data-bs-auto-close="outside"> Merkezler <i class="bi bi-caret-down-fill"></i>
+                            </spanp>
+                            <ul class="dropdown-menu header-dropdown-menu">
+                                <li><a href="" class="dropdown-item header-dropdown-item" href="#">Türkiye Ulusal
+                                        Genom Merkezi (TUGEM)</a>
+                                </li>
+                                <li><a href="" class="dropdown-item header-dropdown-item" href="#">BİYAŞAM</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="/" class="nav-link dropdown-toggle header-container-dropdown-toggle" role="button">
+                                Proje Destekleri
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <span class="nav-link dropdown-toggle header-container-dropdown-toggle" role="button"
+                                data-bs-auto-close="outside">TÜSEB TTO<i class="bi bi-caret-down-fill"></i>
+                            </span>
+                            <ul class="dropdown-menu header-dropdown-menu">
+                                <li><a class="dropdown-item header-dropdown-item" href="#">Girişimcilik ve İnovasyon
+                                        Birimi</a></li>
+                                <li><a class="dropdown-item header-dropdown-item" href="#">Yerlileştirme ve
+                                        Ticarileştirme Birimi</a></li>
+                                <li><a class="dropdown-item header-dropdown-item" href="#">Fikri ve Sınai Mülkiyet
+                                        Hakları Birimi</a></li>
+                                <li><a class="dropdown-item header-dropdown-item" href="#">Klinik Araştırmalar
+                                        Koordinasyon Birimi</a></li>
+                                <li><a class="dropdown-item header-dropdown-item" href="#">Teknoloji Dönüşümü Eğitim
+                                        Birimi</a></li>
+                                <li><a class="dropdown-item header-dropdown-item" href="#">Ekibimiz</a></li>
+                                <li><a class="dropdown-item header-dropdown-item" href="#">TTO İletişim</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <span class="nav-link dropdown-toggle header-container-dropdown-toggle" role="button"
+                                data-bs-auto-close="outside">Basın<i class="bi bi-caret-down-fill"></i>
+                            </span>
+                            <ul class="dropdown-menu header-dropdown-menu">
+                                <li><a class="dropdown-item header-dropdown-item" href="#">Basında TÜSEB</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="header-small-screen-language">
+                    <div class="dropdown header-dropdown-language">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>TR</span>
+                            <i class="bi bi-chevron-down"></i>
+                        </button>
+                        <ul class="dropdown-menu header-dropdown-language-menu">
+                            <li><a class="dropdown-item header-bottom-dropdown-item" href="#">TR</a></li>
+                            <li><a class="dropdown-item header-bottom-dropdown-item" href="#">EN</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <button class="btn header-sidebar-button btn-white" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                            <i class="bi bi-list header-button-sidebar-icon"></i>
+                        </button>
+                    </div>
+
+                    <div>
+                        <a href="https://www.saglik.gov.tr/"> <img class="header-container-bottom-logo-right"
+                                src="../../assets/image/saglik_bak_logo_tr.png" alt="saglik-bakanligi-logo"></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <!-- List kısmı -->
+    <div class="offcanvas offcanvas-bottombar offcanvas-start header-offcanvas" tabindex="-1" id="staticBackdrop"
+        aria-labelledby="staticBackdropLabel" data-bs-auto-open="false">
+        <div class="offcanvas-body">
+            <div class="header-offcanvas-content">
+                <a href="/"><img class="header-offcanvas-logo" src="../../assets/image/tuseb-logo-tr.png"
+                        alt="tuseb-logo-tr" /></a>
+                <div class="header-offcanvas-content-language">
+                    <div class="dropdown header-offcanvas-dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span>TR</span>
+                            <i class="bi bi-chevron-down"></i>
+                        </button>
+                        <ul class="dropdown-menu header-offcanvas-dropdown-menu">
+                            <li><a class="dropdown-item dropdown-item-language" href="#">TR</a></li>
+                            <li><a class="dropdown-item dropdown-item-language" href="#">EN</a></li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn header-offcanvas-close" data-bs-dismiss="offcanvas"><i
+                            class="bi bi-x header-offcanvas-close-icon"></i></button>
+                </div>
+            </div>
+            <div class="navbar-search header-offcanvas-search">
+                <form class="header-list-search d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Arama" aria-label="Search">
+                    <button class="btn btn-outline header-btn-outline" type="submit">Ara</button>
+                </form>
+            </div>
+
+
+            <div class="" id="sidebar-accordion">
+                <div class="accordion" id="accordionFlush">
+            
+                    <li class="header-sidebar-accordion-item">
+                        <a href="#"><span>Anasayfa</span></a>
+                    </li>
+            
+                    <li>
+                        <div class="accordion-item sidebar-accordion-item">
+                            <h2 class="accordion-header" id="flush-headingKurumsal">
+                                <button class="accordion-button header-sidebar-accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseKurumsal" aria-expanded="false"
+                                    aria-controls="flush-collapseKurumsal">
+                                    <span>Kurumsal</span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseKurumsal" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingKurumsal" data-bs-parent="#accordionFlush">
+                                <div class="accordion-body header-sidebar-accordion-body">
+                                    <ul class="accordion-inner-list header-sidebar-accordion-inner-list">
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>Hakkımızda</span></a>
+                                        </li>
+            
+            
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>Yönetim Kurulu</span></a>
+                                        </li>
+            
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>Üst Yönetim</span></a>
+                                        </li>
+            
+                                        <li>
+                                            <div class="accordion-item sidebar-accordion-item">
+                                                <h2 class="accordion-header" id="flush-headingTusebBaskani">
+                                                    <button class="accordion-button header-sidebar-accordion-button collapsed"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#flush-collapseTusebBaskani" aria-expanded="false"
+                                                        aria-controls="flush-collapseTusebBaskani">
+                                                        <span>TÜSEB Başkanı</span>
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseTusebBaskani" class="accordion-collapse collapse"
+                                                    aria-labelledby="flush-headingTusebBaskani"
+                                                    data-bs-parent="#flush-collapseKurumsal">
+                                                    <div class="accordion-body header-sidebar-accordion-body">
+                                                        <ul class="accordion-inner-list header-sidebar-accordion-inner-list">
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>Özgeçmiş</span></a>
+                                                            </li>
+            
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>Akademik ve Bilimsel Etkinlikler</span></a>
+                                                            </li>
+            
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>Röportaj ve Yayınlar</span></a>
+                                                            </li>
+            
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>Başkan Fotoğrafları</span></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+            
+                                        <li>
+                                            <div class="accordion-item sidebar-accordion-item">
+                                                <h2 class="accordion-header" id="flush-headingTeskilatYapisi">
+                                                    <button class="accordion-button header-sidebar-accordion-button collapsed"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#flush-collapseTeskilatYapisi" aria-expanded="false"
+                                                        aria-controls="flush-collapseTeskilatYapisi">
+                                                        <span>Teşkilat Yapısı</span>
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseTeskilatYapisi" class="accordion-collapse collapse"
+                                                    aria-labelledby="flush-headingTeskilatYapisi"
+                                                    data-bs-parent="#flush-collapseKurumsal">
+                                                    <div class="accordion-body header-sidebar-accordion-body">
+                                                        <ul class="accordion-inner-list header-sidebar-accordion-inner-list">
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>Özel Kalem Müdürlüğü</span></a>
+                                                            </li>
+            
+                                                            <li>
+                                                                <div class="accordion-item sidebar-accordion-item">
+                                                                    <h2 class="accordion-header" id="flush-headingGenelSekreterlik">
+                                                                        <button
+                                                                            class="accordion-button header-sidebar-accordion-button collapsed"
+                                                                            type="button" data-bs-toggle="collapse"
+                                                                            data-bs-target="#flush-collapseGenelSekreterlik"
+                                                                            aria-expanded="false"
+                                                                            aria-controls="flush-collapseGenelSekreterlik">
+                                                                            <span>Genel Sekreterlik</span>
+                                                                        </button>
+                                                                    </h2>
+                                                                    <div id="flush-collapseGenelSekreterlik"
+                                                                        class="accordion-collapse collapse"
+                                                                        aria-labelledby="flush-headingGenelSekreterlik"
+                                                                        data-bs-parent="#flush-collapseTeskilatYapisi">
+                                                                        <div class="accordion-body header-sidebar-accordion-body">
+                                                                            <ul
+                                                                                class="accordion-inner-list header-sidebar-accordion-inner-list">
+                                                                                <li class="accordion-item sidebar-accordion-item">
+                                                                                    <a href="#"><span>Dış İlişkiler Daire
+                                                                                            Başkanlığı</span></a>
+                                                                                </li>
+            
+                                                                                <li class="accordion-item sidebar-accordion-item">
+                                                                                    <a href="#"><span>Hukuk Hizmetleri Daire
+                                                                                            Başkanlığı</span></a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <div
+                                                                                        class="accordion-item sidebar-accordion-item">
+                                                                                        <h2 class="accordion-header"
+                                                                                            id="flush-headingStratejiGelistirme">
+                                                                                            <button
+                                                                                                class="accordion-button header-sidebar-accordion-button collapsed"
+                                                                                                type="button"
+                                                                                                data-bs-toggle="collapse"
+                                                                                                data-bs-target="#flush-collapseStratejiGelistirme"
+                                                                                                aria-expanded="false"
+                                                                                                aria-controls="flush-collapseStratejiGelistirme">
+                                                                                                <span>Strateji Geliştirme Daire
+                                                                                                    Başkanlığı</span>
+                                                                                            </button>
+                                                                                        </h2>
+                                                                                        <div id="flush-collapseStratejiGelistirme"
+                                                                                            class="accordion-collapse collapse"
+                                                                                            aria-labelledby="flush-headingStratejiGelistirme"
+                                                                                            data-bs-parent="#flush-collapseGenelSekreterlik">
+                                                                                            <div
+                                                                                                class="accordion-body header-sidebar-accordion-body">
+                                                                                                <ul
+                                                                                                    class="accordion-inner-list header-sidebar-accordion-inner-list">
+                                                                                                    <li
+                                                                                                        class="accordion-item sidebar-accordion-item">
+                                                                                                        <a href="#"><span>Muhasebe
+                                                                                                                ve Kesin Hesap
+                                                                                                                Birimi</span></a>
+                                                                                                    </li>
+            
+                                                                                                    <li
+                                                                                                        class="accordion-item sidebar-accordion-item">
+                                                                                                        <a href="#"><span>İç Kontrol
+                                                                                                                Birimi</span></a>
+                                                                                                    </li>
+            
+                                                                                                    <li
+                                                                                                        class="accordion-item sidebar-accordion-item">
+                                                                                                        <a href="#"><span>Bütçe ve
+                                                                                                                Performans
+                                                                                                                Birimi</span></a>
+                                                                                                    </li>
+            
+                                                                                                    <li
+                                                                                                        class="accordion-item sidebar-accordion-item">
+                                                                                                        <a href="#"><span>Strateji
+                                                                                                                Yönetim ve Planlama
+                                                                                                                Birimi</span></a>
+                                                                                                    </li>
+                                                                                                </ul>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </li>
+            
+                                                                                <li>
+                                                                                    <div
+                                                                                        class="accordion-item sidebar-accordion-item">
+                                                                                        <h2 class="accordion-header"
+                                                                                            id="flush-headingYonetimHizmetleri">
+                                                                                            <button
+                                                                                                class="accordion-button header-sidebar-accordion-button collapsed"
+                                                                                                type="button"
+                                                                                                data-bs-toggle="collapse"
+                                                                                                data-bs-target="#flush-collapseYonetimHizmetleri"
+                                                                                                aria-expanded="false"
+                                                                                                aria-controls="flush-collapseYonetimHizmetleri">
+                                                                                                <span>Yönetim Hizmetleri Daire
+                                                                                                    Başkanlığı</span>
+                                                                                            </button>
+                                                                                        </h2>
+                                                                                        <div id="flush-collapseYonetimHizmetleri"
+                                                                                            class="accordion-collapse collapse"
+                                                                                            aria-labelledby="flush-headingYonetimHizmetleri"
+                                                                                            data-bs-parent="#flush-collapseGenelSekreterlik">
+                                                                                            <div
+                                                                                                class="accordion-body header-sidebar-accordion-body">
+                                                                                                <ul
+                                                                                                    class="accordion-inner-list header-sidebar-accordion-inner-list">
+                                                                                                    <li
+                                                                                                        class="accordion-item sidebar-accordion-item">
+                                                                                                        <a href="#"><span>Bilgi
+                                                                                                                İşlem
+                                                                                                                Birimi</span></a>
+                                                                                                    </li>
+            
+                                                                                                    <li
+                                                                                                        class="accordion-item sidebar-accordion-item">
+                                                                                                        <a href="#"><span>İnsan
+                                                                                                                Kaynakları
+                                                                                                                Birimi</span></a>
+                                                                                                    </li>
+            
+                                                                                                    <li
+                                                                                                        class="accordion-item sidebar-accordion-item">
+                                                                                                        <a href="#"><span>Destek
+                                                                                                                Hizmetleri
+                                                                                                                Birimi</span></a>
+                                                                                                    </li>
+            
+                                                                                                    <li
+                                                                                                        class="accordion-item sidebar-accordion-item">
+                                                                                                        <a href="#"><span>İdari ve
+                                                                                                                Mali İşler
+                                                                                                                Birimi</span></a>
+                                                                                                    </li>
+                                                                                                </ul>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+            
+                                                            <li>
+                                                                <div class="accordion-item sidebar-accordion-item">
+                                                                    <h2 class="accordion-header"
+                                                                        id="flush-headingBaskanYardimcisi1">
+                                                                        <button
+                                                                            class="accordion-button header-sidebar-accordion-button collapsed"
+                                                                            type="button" data-bs-toggle="collapse"
+                                                                            data-bs-target="#flush-collapseBaskanYardimcisi1"
+                                                                            aria-expanded="false"
+                                                                            aria-controls="flush-collapseBaskanYardimcisi1">
+                                                                            <span>Başkan Yardımcısı 1</span>
+                                                                        </button>
+                                                                    </h2>
+                                                                    <div id="flush-collapseBaskanYardimcisi1"
+                                                                        class="accordion-collapse collapse"
+                                                                        aria-labelledby="flush-headingBaskanYardimcisi1"
+                                                                        data-bs-parent="#flush-collapseTeskilatYapisi">
+                                                                        <div class="accordion-body header-sidebar-accordion-body">
+                                                                            <ul
+                                                                                class="accordion-inner-list header-sidebar-accordion-inner-list">
+                                                                                <li class="accordion-item sidebar-accordion-item">
+                                                                                    <a href="#"><span>Sağlık Endüstrileri Yerlileşme
+                                                                                            ve Proje Geliştirme Daire
+                                                                                            Başkanlığı</span></a>
+                                                                                </li>
+            
+                                                                                <li class="accordion-item sidebar-accordion-item">
+                                                                                    <a href="#"><span>Teknoloji Transfer
+                                                                                            Ofisi</span></a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+            
+                                                            <li>
+                                                                <div class="accordion-item sidebar-accordion-item">
+                                                                    <h2 class="accordion-header"
+                                                                        id="flush-headingBaskanYardimcisi2">
+                                                                        <button
+                                                                            class="accordion-button header-sidebar-accordion-button collapsed"
+                                                                            type="button" data-bs-toggle="collapse"
+                                                                            data-bs-target="#flush-collapseBaskanYardimcisi2"
+                                                                            aria-expanded="false"
+                                                                            aria-controls="flush-collapseBaskanYardimcisi2">
+                                                                            <span>Başkan Yardımcısı 2</span>
+                                                                        </button>
+                                                                    </h2>
+                                                                    <div id="flush-collapseBaskanYardimcisi2"
+                                                                        class="accordion-collapse collapse"
+                                                                        aria-labelledby="flush-headingBaskanYardimcisi2"
+                                                                        data-bs-parent="#flush-collapseTeskilatYapisi">
+                                                                        <div class="accordion-body header-sidebar-accordion-body">
+                                                                            <ul
+                                                                                class="accordion-inner-list header-sidebar-accordion-inner-list">
+                                                                                <li class="accordion-item sidebar-accordion-item">
+                                                                                    <a href="#"><span>Proje Yönetimi ve Destek Daire
+                                                                                            Başkanlığı</span></a>
+                                                                                </li>
+            
+                                                                                <li class="accordion-item sidebar-accordion-item">
+                                                                                    <a href="#"><span>Proje Destek Politikaları
+                                                                                            Birimi</span></a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+            
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>Başkan Yardımcısı 3</span></a>
+                                                            </li>
+            
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>Enstitü Başkanlıkları</span></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+            
+                                        <li>
+                                            <div class="accordion-item sidebar-accordion-item">
+                                                <h2 class="accordion-header" id="flush-headingMevzuat">
+                                                    <button class="accordion-button header-sidebar-accordion-button collapsed"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#flush-collapseMevzuat" aria-expanded="false"
+                                                        aria-controls="flush-collapseMevzuat">
+                                                        <span>Mevzuat</span>
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseMevzuat" class="accordion-collapse collapse"
+                                                    aria-labelledby="flush-headingMevzuat" data-bs-parent="#flush-collapseKurumsal">
+                                                    <div class="accordion-body header-sidebar-accordion-body">
+                                                        <ul class="accordion-inner-list header-sidebar-accordion-inner-list">
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>Kanunlar</span></a>
+                                                            </li>
+            
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>Cumhurbaskanlığı Kararnameleri</span></a>
+                                                            </li>
+            
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>Yönetmelikler</span></a>
+                                                            </li>
+            
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>Usul ve Esaslar</span></a>
+                                                            </li>
+            
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>Genelgeler</span></a>
+                                                            </li>
+            
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>Yönergeler</span></a>
+                                                            </li>
+            
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>Kamu Etik Davranış Kuralları</span></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+            
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>Mali Duyurular</span></a>
+                                        </li>
+            
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>Faaliyet Raporları</span></a>
+                                        </li>
+            
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>Stratejik Planlar</span></a>
+                                        </li>
+            
+                                        <li>
+                                            <div class="accordion-item sidebar-accordion-item">
+                                                <h2 class="accordion-header" id="flush-headingIcKontrol">
+                                                    <button class="accordion-button header-sidebar-accordion-button collapsed"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#flush-collapseIcKontrol" aria-expanded="false"
+                                                        aria-controls="flush-collapseIcKontrol">
+                                                        <span>İç Kontrol</span>
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseIcKontrol" class="accordion-collapse collapse"
+                                                    aria-labelledby="flush-headingIcKontrol"
+                                                    data-bs-parent="#flush-collapseKurumsal">
+                                                    <div class="accordion-body header-sidebar-accordion-body">
+                                                        <ul class="accordion-inner-list header-sidebar-accordion-inner-list">
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>İç Kontrol Hakkında </span></a>
+                                                            </li>
+            
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>Eylem Planları</span></a>
+                                                            </li>
+            
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>Değerlendirme Raporları</span></a>
+                                                            </li>
+            
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>İç Kontrol Dökümanları</span></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+            
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>Performans Programları</span></a>
+                                        </li>
+            
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>Arabuluculuk Komisyonu</span></a>
+                                        </li>
+            
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>İnsan Kaynakları</span></a>
+                                        </li>
+            
+                                        <li>
+                                            <div class="accordion-item sidebar-accordion-item">
+                                                <h2 class="accordion-header" id="flush-headingYayinlar">
+                                                    <button class="accordion-button header-sidebar-accordion-button collapsed"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#flush-collapseYayinlar" aria-expanded="false"
+                                                        aria-controls="flush-collapseYayinlar">
+                                                        <span>Yayınlar</span>
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseYayinlar" class="accordion-collapse collapse"
+                                                    aria-labelledby="flush-headingYayinlar"
+                                                    data-bs-parent="#accordionFlushKurumsal">
+                                                    <div class="accordion-body header-sidebar-accordion-body">
+                                                        <ul class="accordion-inner-list header-sidebar-accordion-inner-list">
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>TÜSEB Dergisi</span></a>
+                                                            </li>
+            
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>TÜSEB 2040 Strateji ve Vizyon Çalıştayı
+                                                                        Raporu</span></a>
+                                                            </li>
+            
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>Klinik Araştırmalar Mevcut Durum ve Öneriler
+                                                                        Çalıştay Raporu</span></a>
+                                                            </li>
+            
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>Türk Devletleri Teşkilatı 8. Türk Tıp Dünyası
+                                                                        Kurultayı Çalıştay Sonuç Raporu</span></a>
+                                                            </li>
+            
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>Analizler ve Raporlar</span></a>
+                                                            </li>
+            
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>Kitaplar ve Kitap Bölümleri</span></a>
+                                                            </li>
+            
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>Rehberler</span></a>
+                                                            </li>
+            
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>Röportajlar</span></a>
+                                                            </li>
+            
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>TÜSEB Geleceğin Pandemileri Sempozyumu
+                                                                        Raporu</span></a>
+                                                            </li>
+            
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>9. Türk Tıp Dünyası Kurultayı Raporu</span></a>
+                                                            </li>
+            
+                                                            <li>
+                                                                <div class="accordion-item sidebar-accordion-item">
+                                                                    <h2 class="accordion-header" id="flush-headingYayinlarSub">
+                                                                        <button
+                                                                            class="accordion-button header-sidebar-accordion-button collapsed"
+                                                                            type="button" data-bs-toggle="collapse"
+                                                                            data-bs-target="#flush-collapseYayinlarSub"
+                                                                            aria-expanded="false"
+                                                                            aria-controls="flush-collapseYayinlarSub">
+                                                                            <span>Yayınlar</span>
+                                                                        </button>
+                                                                    </h2>
+                                                                    <div id="flush-collapseYayinlarSub"
+                                                                        class="accordion-collapse collapse"
+                                                                        aria-labelledby="flush-headingYayinlarSub"
+                                                                        data-bs-parent="#flush-collapseYayinlar">
+                                                                        <div class="accordion-body header-sidebar-accordion-body">
+                                                                            <ul
+                                                                                class="accordion-inner-list header-sidebar-accordion-inner-list">
+                                                                                <li class="accordion-item sidebar-accordion-item">
+                                                                                    <a href="#"><span>Sağlıkta Çözüm
+                                                                                            Teknolojide</span></a>
+                                                                                </li>
+            
+                                                                                <li class="accordion-item sidebar-accordion-item">
+                                                                                    <a href="#"><span>COVID-19’da ‘fikirden ürüne’
+                                                                                            etkin güç: TÜSEB</span></a>
+                                                                                </li>
+            
+                                                                                <li class="accordion-item sidebar-accordion-item">
+                                                                                    <a href="#"><span>TÜSEB’in Biyoteknoloji
+                                                                                            Alanındaki AR-GE Faaliyet ve
+                                                                                            Destekleri</span></a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+            
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>Klinik Araştırmalar-Etik Kurullar Mevcut Durum ve
+                                                                        Öneriler Çalıştay Raporu</span></a>
+                                                            </li>
+            
+            
+                                                            <li class="accordion-item sidebar-accordion-item">
+                                                                <a href="#"><span>Klinik Araştırmalarda Sigorta Çalıştayı Ara
+                                                                        Raporu</span></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+            
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>Teşkilat Şeması</span></a>
+                                        </li>
+            
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>Yerleşkelerimiz</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+            
+                    <li>
+                        <div class="accordion-item sidebar-accordion-item">
+                            <h2 class="accordion-header" id="flush-headingEnstitüler">
+                                <button class="accordion-button header-sidebar-accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseEnstitüler" aria-expanded="false"
+                                    aria-controls="flush-collapseEnstitüler">
+                                    <span>Enstitüler</span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseEnstitüler" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingEnstitüler" data-bs-parent="#accordionFlush">
+                                <div class="accordion-body header-sidebar-accordion-body">
+                                    <ul class="accordion-inner-list header-sidebar-accordion-inner-list">
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>Türkiye Anne Çocuk ve Ergen Sağlığı Enstitüsü</span></a>
+                                        </li>
+            
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>Türkiye Biyoteknoloji Enstitüsü</span></a>
+                                        </li>
+            
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>Türkiye Kanser Enstitüsü</span></a>
+                                        </li>
+            
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>Türkiye Halk Sağlığı ve Kronik Hastalıklar Enstitüsü</span></a>
+                                        </li>
+            
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>Türkiye Sağlık Hizmetleri Kalite ve Akreditasyon Enstitüsü</span></a>
+                                        </li>
+            
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>Türkiye Sağlık Politikaları Enstitüsü</span></a>
+                                        </li>
+            
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>Türkiye Aşı Enstitüsü</span></a>
+                                        </li>
+            
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>Türkiye Sağlık Veri Araştırmaları ve Yapay Zeka Uygulamaları
+                                                    Enstitüsü</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+            
+                    <li>
+                        <div class="accordion-item sidebar-accordion-item">
+                            <h2 class="accordion-header" id="flush-headingMerkezler">
+                                <button class="accordion-button header-sidebar-accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseMerkezler" aria-expanded="false"
+                                    aria-controls="flush-collapseMerkezler">
+                                    <span>Merkezler</span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseMerkezler" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingMerkezler" data-bs-parent="#accordionFlush">
+                                <div class="accordion-body header-sidebar-accordion-body">
+                                    <ul class="accordion-inner-list header-sidebar-accordion-inner-list">
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>Türkiye Ulusal Genom Merkezi (TUGEM)</span></a>
+                                        </li>
+            
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>BİYAŞAM</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+            
+                    <li class="header-sidebar-accordion-item">
+                        <a href="#"><span>Proje Destekleri</span></a>
+                    </li>
+            
+                    <li>
+                        <div class="accordion-item sidebar-accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTusebTTO">
+                                <button class="accordion-button header-sidebar-accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTusebTTO" aria-expanded="false"
+                                    aria-controls="flush-collapseTusebTTO">
+                                    <span>TÜSEB TTO</span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTusebTTO" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTusebTTO" data-bs-parent="#accordionFlush">
+                                <div class="accordion-body header-sidebar-accordion-body">
+                                    <ul class="accordion-inner-list header-sidebar-accordion-inner-list">
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>Girişimcilik ve İnovasyon Birimi</span></a>
+                                        </li>
+            
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>Yerlileştirme ve Ticarileştirme Birimi</span></a>
+                                        </li>
+            
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>Fikri ve Sınai Mülkiyet Hakları Birimi</span></a>
+                                        </li>
+            
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>Klinik Araştırmalar Koordinasyon Birimi</span></a>
+                                        </li>
+            
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>Teknoloji Dönüşümü Eğitim Birimi</span></a>
+                                        </li>
+            
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>Ekibimiz</span></a>
+                                        </li>
+            
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>TTO İletişim</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+            
+                    <li>
+                        <div class="accordion-item sidebar-accordion-item">
+                            <h2 class="accordion-header" id="flush-headingBasin">
+                                <button class="accordion-button header-sidebar-accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseBasin" aria-expanded="false"
+                                    aria-controls="flush-collapseBasin">
+                                    <span>Basın</span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseBasin" class="accordion-collapse collapse" aria-labelledby="flush-headingBasin"
+                                data-bs-parent="#accordionFlush">
+                                <div class="accordion-body header-sidebar-accordion-body">
+                                    <ul class="accordion-inner-list header-sidebar-accordion-inner-list">
+            
+                                        <li class="accordion-item sidebar-accordion-item">
+                                            <a href="#"><span>Basında TÜSEB</span></a>
+                                        </li>
+            
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<main>
+    <div class="body-container">
+
+        <div class="body-title">
+            <div class="container body-container-title">
+                <h1 class="body-container-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos fuga fugiat perspiciatis repellat,
+                    laborum unde repellendus eaque blanditiis voluptates vitae. Reiciendis corrupti quibusdam voluptates
+                    aut officia tempore neque maiores eius!
+                </h1>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-xl-3 col-lg-4 col-md-4 d-none d-lg-block">
+
+                    <div class="body-container-logo">
+                        <a href="http://127.0.0.1:5500/pages/anasayfa/asi.html"><img class="body-container-logo-item" src="../../assets/image/tae-tr.png" /></a>
+                    </div>
+
+                    <div class="accordion body-sidebar-list-accordion" id="flush-accordionKurumsal">
+                        <ul>
+                    
+                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                <h2 class="accordion-header body-sidebar-list-accordion-header" id="flush-headingAnasayfa">
+                                    <button class="accordion-button body-sidebar-list-accordion-button collapsed outer-accordion"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseAnasayfa"
+                                        aria-expanded="false" aria-controls="flush-collapseAnasayfa">
+                                        <span>Anasayfa</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseAnasayfa" class="accordion-collapse collapse" aria-labelledby="flush-headingAnasayfa"
+                                    data-bs-parent="#flush-accordionKurumsal">
+                                    <div class="accordion-body body-sidebar-list-accordion-body">
+                                        <ul class="accordion-inner-list body-sidebar-list-accordion-inner-list">
+                    
+                                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                                <a href="http://127.0.0.1:5500/pages/anasayfa/asi.html"
+                                                    class="body-sidebar-list-accordion-link"><i
+                                                        class="fa-solid fa-chevron-right"></i>Aşı</a>
+                                            </li>
+                    
+                                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                                <a href="http://127.0.0.1:5500/pages/anasayfa/genel.html"
+                                                    class="body-sidebar-list-accordion-link"><i
+                                                        class="fa-solid fa-chevron-right"></i>Genel</a>
+                                            </li>
+                    
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                    
+                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                <h2 class="accordion-header body-sidebar-list-accordion-header" id="flush-headingError">
+                                    <button class="accordion-button body-sidebar-list-accordion-button collapsed outer-accordion"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseError" aria-expanded="false"
+                                        aria-controls="flush-collapseError">
+                                        <span>Error</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseError" class="accordion-collapse collapse" aria-labelledby="flush-headingError"
+                                    data-bs-parent="#flush-accordionKurumsal">
+                                    <div class="accordion-body body-sidebar-list-accordion-body">
+                                        <ul class="accordion-inner-list body-sidebar-list-accordion-inner-list">
+                    
+                                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                                <a href="http://127.0.0.1:5500/pages/error/404-not-found.html"
+                                                    class="body-sidebar-list-accordion-link"><i class="fa-solid fa-chevron-right"></i>404
+                                                    Not Found</a>
+                                            </li>
+                    
+                                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                                <a href="http://127.0.0.1:5500/pages/error/500-server-error.html"
+                                                    class="body-sidebar-list-accordion-link"><i class="fa-solid fa-chevron-right"></i>500
+                                                    Server Error</a>
+                                            </li>
+                    
+                                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                                <a href="http://127.0.0.1:5500/pages/error/505-http-error.html"
+                                                    class="body-sidebar-list-accordion-link"><i class="fa-solid fa-chevron-right"></i>505
+                                                    HTTP Error</a>
+                                            </li>
+                    
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                    
+                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                <h2 class="accordion-header body-sidebar-list-accordion-header" id="flush-headingKlinikArastirmalar">
+                                    <button class="accordion-button body-sidebar-list-accordion-button collapsed outer-accordion"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseKlinikArastirmalar"
+                                        aria-expanded="false" aria-controls="flush-collapseKlinikArastirmalar">
+                                        <span>Klinik Araştırmalar</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseKlinikArastirmalar" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingKlinikArastirmalar" data-bs-parent="#flush-accordionKurumsal">
+                                    <div class="accordion-body body-sidebar-list-accordion-body">
+                                        <ul class="accordion-inner-list body-sidebar-list-accordion-inner-list">
+                    
+                                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                                <a href="http://127.0.0.1:5500/pages/klinik-arastirmalar/genel.html"
+                                                    class="body-sidebar-list-accordion-link"><i
+                                                        class="fa-solid fa-chevron-right"></i>Genel</a>
+                                            </li>
+                    
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                    
+                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                <h2 class="accordion-header body-sidebar-list-accordion-header" id="flush-headingKurumsal">
+                                    <button class="accordion-button body-sidebar-list-accordion-button collapsed outer-accordion"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseKurumsal"
+                                        aria-expanded="false" aria-controls="flush-collapseKurumsal">
+                                        <span>Kurumsal</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseKurumsal" class="accordion-collapse collapse" aria-labelledby="flush-headingKurumsal"
+                                    data-bs-parent="#flush-accordionKurumsal">
+                                    <div class="accordion-body body-sidebar-list-accordion-body">
+                                        <ul class="accordion-inner-list body-sidebar-list-accordion-inner-list">
+                    
+                                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                                <a href="http://127.0.0.1:5500/pages/kurumsal/onemli-gunler.html"
+                                                    class="body-sidebar-list-accordion-link"><i class="fa-solid fa-chevron-right"></i>Önemli
+                                                    Günler</a>
+                                            </li>
+                    
+                                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                                <a href="http://127.0.0.1:5500/pages/kurumsal/personel.html"
+                                                    class="body-sidebar-list-accordion-link"><i
+                                                        class="fa-solid fa-chevron-right"></i>Personel</a>
+                                            </li>
+                    
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                    
+                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                <h2 class="accordion-header body-sidebar-list-accordion-header" id="flush-headingLoader">
+                                    <button class="accordion-button body-sidebar-list-accordion-button collapsed outer-accordion"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseLoader" aria-expanded="false"
+                                        aria-controls="flush-collapseLoader">
+                                        <span>Loader</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseLoader" class="accordion-collapse collapse" aria-labelledby="flush-headingLoader"
+                                    data-bs-parent="#flush-accordionKurumsal">
+                                    <div class="accordion-body body-sidebar-list-accordion-body">
+                                        <ul class="accordion-inner-list body-sidebar-list-accordion-inner-list">
+                    
+                                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                                <a href="http://127.0.0.1:5500/pages/loader/loader.html"
+                                                    class="body-sidebar-list-accordion-link"><i
+                                                        class="fa-solid fa-chevron-right"></i>Loader</a>
+                                            </li>
+                    
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                    
+                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                <h2 class="accordion-header body-sidebar-list-accordion-header" id="flush-headingSabitSayfalar">
+                                    <button class="accordion-button body-sidebar-list-accordion-button collapsed outer-accordion"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSabitSayfalar"
+                                        aria-expanded="false" aria-controls="flush-collapseSabitSayfalar">
+                                        <span>Sabit Sayfalar</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseSabitSayfalar" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingSabitSayfalar" data-bs-parent="#flush-accordionKurumsal">
+                                    <div class="accordion-body body-sidebar-list-accordion-body">
+                                        <ul class="accordion-inner-list body-sidebar-list-accordion-inner-list">
+                    
+                                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                                <a href="http://127.0.0.1:5500/pages/sabit-sayfalar/bilgilendirme.html"
+                                                    class="body-sidebar-list-accordion-link"><i
+                                                        class="fa-solid fa-chevron-right"></i>Bilgilendirme</a>
+                                            </li>
+                    
+                                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                                <a href="http://127.0.0.1:5500/pages/sabit-sayfalar/detay.html"
+                                                    class="body-sidebar-list-accordion-link"><i
+                                                        class="fa-solid fa-chevron-right"></i>Detay</a>
+                                            </li>
+                    
+                                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                                <a href="http://127.0.0.1:5500/pages/sabit-sayfalar/duyurular.html"
+                                                    class="body-sidebar-list-accordion-link"><i
+                                                        class="fa-solid fa-chevron-right"></i>Duyurular</a>
+                                            </li>
+                    
+                                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                                <a href="http://127.0.0.1:5500/pages/sabit-sayfalar/genel.html"
+                                                    class="body-sidebar-list-accordion-link"><i
+                                                        class="fa-solid fa-chevron-right"></i>Genel</a>
+                                            </li>
+                    
+                                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                                <a href="http://127.0.0.1:5500/pages/sabit-sayfalar/iletisim.html"
+                                                    class="body-sidebar-list-accordion-link"><i
+                                                        class="fa-solid fa-chevron-right"></i>İletişim</a>
+                                            </li>
+                    
+                                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                                <a href="http://127.0.0.1:5500/pages/sabit-sayfalar/pdf-detay.html"
+                                                    class="body-sidebar-list-accordion-link"><i class="fa-solid fa-chevron-right"></i>PDF
+                                                    Detay</a>
+                                            </li>
+                    
+                                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                                <a href="http://127.0.0.1:5500/pages/sabit-sayfalar/pdf.html"
+                                                    class="body-sidebar-list-accordion-link"><i
+                                                        class="fa-solid fa-chevron-right"></i>PDF</a>
+                                            </li>
+                    
+                                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                                <a href="http://127.0.0.1:5500/pages/sabit-sayfalar/sss.html"
+                                                    class="body-sidebar-list-accordion-link"><i
+                                                        class="fa-solid fa-chevron-right"></i>SSS</a>
+                                            </li>
+                    
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                    
+                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                <h2 class="accordion-header body-sidebar-list-accordion-header" id="flush-headingTumHaberler">
+                                    <button class="accordion-button body-sidebar-list-accordion-button collapsed outer-accordion"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTumHaberler"
+                                        aria-expanded="false" aria-controls="flush-collapseTumHaberler">
+                                        <span>Tüm Haberler</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTumHaberler" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTumHaberler" data-bs-parent="#flush-accordionKurumsal">
+                                    <div class="accordion-body body-sidebar-list-accordion-body">
+                                        <ul class="accordion-inner-list body-sidebar-list-accordion-inner-list">
+                    
+                                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                                <a href="http://127.0.0.1:5500/pages/tum-haberler/detay.html"
+                                                    class="body-sidebar-list-accordion-link"><i
+                                                        class="fa-solid fa-chevron-right"></i>Detay</a>
+                                            </li>
+                    
+                                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                                <a href="http://127.0.0.1:5500/pages/tum-haberler/genel.html"
+                                                    class="body-sidebar-list-accordion-link"><i
+                                                        class="fa-solid fa-chevron-right"></i>Genel</a>
+                                            </li>
+                    
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                    
+                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                <h2 class="accordion-header body-sidebar-list-accordion-header" id="flush-headingYayinlar">
+                                    <button class="accordion-button body-sidebar-list-accordion-button collapsed outer-accordion"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseYayinlar"
+                                        aria-expanded="false" aria-controls="flush-collapseYayinlar">
+                                        <span>Yayinlar</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseYayinlar" class="accordion-collapse collapse" aria-labelledby="flush-headingYayinlar"
+                                    data-bs-parent="#flush-accordionKurumsal">
+                                    <div class="accordion-body body-sidebar-list-accordion-body">
+                                        <ul class="accordion-inner-list body-sidebar-list-accordion-inner-list">
+                                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                                <a href="http://127.0.0.1:5500/pages/yayinlar/detay.html"
+                                                    class="body-sidebar-list-accordion-link"><i
+                                                        class="fa-solid fa-chevron-right"></i>Detay</a>
+                                            </li>
+                                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                                <a href="http://127.0.0.1:5500/pages/yayinlar/raporlar.html"
+                                                    class="body-sidebar-list-accordion-link"><i
+                                                        class="fa-solid fa-chevron-right"></i>Raporlar</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                <h2 class="accordion-header body-sidebar-list-accordion-header" id="flush-headingSearch">
+                                    <button class="accordion-button body-sidebar-list-accordion-button collapsed outer-accordion"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSearch"
+                                        aria-expanded="false" aria-controls="flush-collapseSearch">
+                                        <span>Search</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseSearch" class="accordion-collapse collapse" aria-labelledby="flush-headingSearch"
+                                    data-bs-parent="#flush-accordionKurumsal">
+                                    <div class="accordion-body body-sidebar-list-accordion-body">
+                                        <ul class="accordion-inner-list body-sidebar-list-accordion-inner-list">
+                                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                                <a href="http://127.0.0.1:5500/pages/search/genel.html"
+                                                    class="body-sidebar-list-accordion-link"><i
+                                                        class="fa-solid fa-chevron-right"></i>Genel</a>
+                                            </li>
+                                            <li class="accordion-item body-sidebar-list-accordion-item">
+                                                <a href="http://127.0.0.1:5500/pages/search/not-found.html"
+                                                    class="body-sidebar-list-accordion-link"><i
+                                                        class="fa-solid fa-chevron-right"></i>Not Found</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                    
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xl-9 col-lg-8 col-md-12">
+
+                    <div class="body-container-card">
+                        <div class="card-content body-container-card-content">
+
+                            <div class="card body-card-item">
+                                <a href="kurumsal/tuseb-baskani/akademik-ve-bilimsel-etkinlikler/tuseb-baskani-atilim-arastirma-gunu-2024.html">
+                                    <div class="body-card-image-content"><img src="../../assets/image/sahu-2.png" class="body-card-image"
+                                         alt="sahu-2" loading="lazy">
+                                    </div>
+                                    <div class="card-body body-card-content">
+                                        <h5 class="body-card-content-title">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+                                            dignissimos
+                                            accusantium amet similique velit iste.
+                                        </h5>
+                                        <p class="body-card-content-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+                                            dignissimos
+                                            accusantium
+                                            amet
+                                            similique velit iste.
+                                        </p>
+                                    </div>
+                                    <div class="body-card-content-date">
+                                        <i class="fa-regular fa-calendar" class="body-card-content-date-icon"></i>
+                                        <span class="body-card-content-date-text">26.04.2024</span>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card body-card-item">
+                                <a href="kurumsal/tuseb-baskani/akademik-ve-bilimsel-etkinlikler/tuseb-baskani-atilim-arastirma-gunu-2024.html">
+                                    <div class="body-card-image-content"><img src="../../assets/image/sahu-2.png" class="body-card-image"
+                                         alt="sahu-2" loading="lazy">
+                                    </div>
+                                    <div class="card-body body-card-content">
+                                        <h5 class="body-card-content-title">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+                                            dignissimos
+                                            accusantium amet similique velit iste.
+                                        </h5>
+                                        <p class="body-card-content-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+                                            dignissimos
+                                            accusantium
+                                            amet
+                                            similique velit iste.
+                                        </p>
+                                    </div>
+                                    <div class="body-card-content-date">
+                                        <i class="fa-regular fa-calendar" class="body-card-content-date-icon"></i>
+                                        <span class="body-card-content-date-text">26.04.2024</span>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card body-card-item">
+                                <a href="kurumsal/tuseb-baskani/akademik-ve-bilimsel-etkinlikler/tuseb-baskani-atilim-arastirma-gunu-2024.html">
+                                    <div class="body-card-image-content"><img src="../../assets/image/sahu-2.png" class="body-card-image"
+                                         alt="sahu-2" loading="lazy">
+                                    </div>
+                                    <div class="card-body body-card-content">
+                                        <h5 class="body-card-content-title">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+                                            dignissimos
+                                            accusantium amet similique velit iste.
+                                        </h5>
+                                        <p class="body-card-content-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+                                            dignissimos
+                                            accusantium
+                                            amet
+                                            similique velit iste.
+                                        </p>
+                                    </div>
+                                    <div class="body-card-content-date">
+                                        <i class="fa-regular fa-calendar" class="body-card-content-date-icon"></i>
+                                        <span class="body-card-content-date-text">26.04.2024</span>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card body-card-item">
+                                <a href="kurumsal/tuseb-baskani/akademik-ve-bilimsel-etkinlikler/tuseb-baskani-atilim-arastirma-gunu-2024.html">
+                                    <div class="body-card-image-content"><img src="../../assets/image/sahu-2.png" class="body-card-image"
+                                         alt="sahu-2" loading="lazy">
+                                    </div>
+                                    <div class="card-body body-card-content">
+                                        <h5 class="body-card-content-title">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+                                            dignissimos
+                                            accusantium amet similique velit iste.
+                                        </h5>
+                                        <p class="body-card-content-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+                                            dignissimos
+                                            accusantium
+                                            amet
+                                            similique velit iste.
+                                        </p>
+                                    </div>
+                                    <div class="body-card-content-date">
+                                        <i class="fa-regular fa-calendar" class="body-card-content-date-icon"></i>
+                                        <span class="body-card-content-date-text">26.04.2024</span>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="card body-card-item">
+                                <a href="kurumsal/tuseb-baskani/akademik-ve-bilimsel-etkinlikler/tuseb-baskani-atilim-arastirma-gunu-2024.html">
+                                    <div class="body-card-image-content"><img src="../../assets/image/sahu-2.png" class="body-card-image"
+                                         alt="sahu-2" loading="lazy">
+                                    </div>
+                                    <div class="card-body body-card-content">
+                                        <h5 class="body-card-content-title">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+                                            dignissimos
+                                            accusantium amet similique velit iste.
+                                        </h5>
+                                        <p class="body-card-content-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+                                            dignissimos
+                                            accusantium
+                                            amet
+                                            similique velit iste.
+                                        </p>
+                                    </div>
+                                    <div class="body-card-content-date">
+                                        <i class="fa-regular fa-calendar" class="body-card-content-date-icon"></i>
+                                        <span class="body-card-content-date-text">26.04.2024</span>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="body-pagination-container">
+                            <div class="body-pagination">
+                                <li class="page-item body-pagination-first-page disable"><a class="page-link" href="#"><i class="fas fa-angle-double-left"></i></a></li>
+                                <li class="page-item body-pagination-previous-page disable"><a class="page-link" href="#"><i class="fas fa-angle-left"></i></a></li>
+                                <li class="page-item body-pagination-current-page active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item body-pagination-dots"><a class="page-link" href="#">...</a></li>
+                                <li class="page-item body-pagination-current-page"><a class="page-link" href="#">5</a></li>
+                                <li class="page-item body-pagination-current-page"><a class="page-link" href="#">6</a></li>
+                                <li class="page-item body-pagination-dots"><a class="page-link" href="#">...</a></li>
+                                <li class="page-item body-pagination-current-page"><a class="page-link" href="#">10</a></li>
+                                <li class="page-item body-pagination-next-page"><a class="page-link" href="#"><i class="fas fa-angle-right"></i></a></li>
+                                <li class="page-item body-pagination-last-page"><a class="page-link" href="#"><i class="fas fa-angle-double-right"></i></a></li>
+                            </div>
+                        </div>
+        
+                        <div class="body-pagination-container-small-screen">
+                            <div class="body-pagination-small-screen">
+                                <li class="page-item body-pagination-first-page-small-screen"><a class="page-link" href="#"><i class="fas fa-angle-double-left"></i></a></li>
+                                <li class="page-item body-pagination-previous-page-small-screen"><a class="page-link" href="#"><i class="fas fa-angle-left"></i></a></li>
+                                <li class="page-item body-pagination-next-page-small-screen"><a class="page-link" href="#"><i class="fas fa-angle-right"></i></a></li>
+                                <li class="page-item body-pagination-last-page-small-screen"><a class="page-link" href="#"><i class="fas fa-angle-double-right"></i></a></li>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+<footer>
+        <!-- Burada footer büyük kısım var -->
+        <div class="footer-container">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-content" >
+                        <div class="col-md-3">
+                            <h1 class="footer-content-header">ENSTİTÜLER</h1>
+                            <div class="footer-content-text-menu">
+                                <ul>
+                                    <li>
+                                        <a class="footer-content-text" href="#">
+                                            Türkiye Anne Çocuk ve Ergen Sağlığı Enstitüsü
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="footer-content-text" href="#">
+                                            Türkiye Biyoteknoloji Enstitüsü
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="footer-content-text" href="#">
+                                            Türkiye Halk Sağlığı Ve Kronik Hastalıklar Enstitüsü
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="footer-content-text" href="#">
+                                            Türkiye Kanser Enstitüsü
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="footer-content-text" href="#">
+                                            Türkiye Sağlık Hizmetleri Kalite ve Akreditasyon Enstitüsü
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="footer-content-text" href="#">
+                                            Türkiye Sağlık Politikaları Enstitüsü
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="footer-content-text" href="#">
+                                            Türkiye Sağlık Veri Araştırmaları ve Yapay Zeka Uygulamaları Enstitüsü
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="footer-content-text" href="#">
+                                            Türkiye Aşı Enstitüsü
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <h1 class="footer-content-header">
+                                HİZMETLER</h1>
+                            <div class="footer-content-text-menu">
+                                <ul>
+                                    <li>
+                                        <a class="footer-content-text" href="#">
+                                           CİMER
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="footer-content-text" href="#">
+                                           SABİM
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <h1 class="footer-content-header">
+                                ULUSLARARASI KURULUŞLAR</h1>
+                            <div class="footer-content-text-menu">
+                                <ul>
+                                    <li>
+                                        <a class="footer-content-text" href="#">
+                                           National Institute of Health
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="footer-content-text" href="#">
+                                           World Health Organization
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="footer-content-text" href="#">
+                                           Medical Research Council
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="footer-content-text" href="#">
+                                           Max Planck Society
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="footer-content-text" href="#">
+                                           INSERM
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="footer-content-text" href="#">
+                                           RIKEN
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <h1 class="footer-content-header">
+                                İLETİŞİM</h1>
+                            <div class="footer-content-text-menu">
+                                <div class="footer-content-iletisim">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <span class="footer-content-iletisim-text">TÜSEB İstanbul Yerleşkesi, Koşuyolu Mahallesi, Koşuyolu Caddesi No: 71 Kadıköy/İSTANBUL </span>
+                                </div>
+                                <div>
+                                    <a href="tel:+905551234567">
+                                        <div class="footer-content-iletisim">
+                                            <i class="bi bi-telephone"></i>
+                                            <span class="footer-content-iletisim-text">0(216) 547 26 00 </span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="mailto:/">
+                                        <div class="footer-content-iletisim">
+                                            <i class="bi bi-envelope"></i>
+                                            <span class="footer-content-iletisim-text"> info@tuseb.gov.tr </span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="footer-content-iletisim">
+                                    <i class="bi bi-send"></i>
+                                    <span class="footer-content-iletisim-text">Kep Adresi: tuseb@hs01.kep.tr </span>
+                                </div>
+                            </div>
+                            <div class="footer-content-top-logo">
+                                <img class="footer-top-logo" src="../../assets/image/Teknofest.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-middle-line"></div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="footer-bottom">
+                        <div class="col">
+                            <div>
+                                <a><img class="footer-bottom-logo" src="../../assets/image/tuseb-logo-sticky.png" alt="tuseb-logo-sticky" ></a>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <span class="footer-bottom-copyright">
+                                <a>© 2022. Türkiye Sağlık Enstitüleri Başkanlığı (TÜSEB)</a>
+                            </span>
+                        </div>
+
+                        <div class="col">
+                            <div class="footer-bottom-social-media">
+                                <a class="footer-bottom-social-media-item" href="#"><i class="fa-regular fa-envelope"></i></a>
+                                <a class="footer-bottom-social-media-item" href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a class="footer-bottom-social-media-item" href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a class="footer-bottom-social-media-item" href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a class="footer-bottom-social-media-item" href="#"><i class="fa-brands fa-youtube"></i></a>
+                                <a class="footer-bottom-social-media-item" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Burada footer küçük kısım var -->
+        <div class="footer-container-small-screen">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-content-small-screen">
+                        <div class="col-md-12">
+                            <h1 class="footer-content-header-small-screen">
+                                ENSTİTÜLER</h1>
+                            <div class="footer-content-text-menu">
+                            <ul>
+                                <li>
+                                    <a class="footer-content-text" href="#">
+                                        Türkiye Anne Çocuk ve Ergen Sağlığı Enstitüsü
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="footer-content-text" href="#">
+                                        Türkiye Biyoteknoloji Enstitüsü
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="footer-content-text" href="#">
+                                        Türkiye Halk Sağlığı Ve Kronik Hastalıklar Enstitüsü
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="footer-content-text" href="#">
+                                        Türkiye Kanser Enstitüsü
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="footer-content-text" href="#">
+                                        Türkiye Sağlık Hizmetleri Kalite ve Akreditasyon Enstitüsü
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="footer-content-text" href="#">
+                                        Türkiye Sağlık Politikaları Enstitüsü
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="footer-content-text" href="#">
+                                        Türkiye Sağlık Veri Araştırmaları ve Yapay Zeka Uygulamaları Enstitüsü
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="footer-content-text" href="#">
+                                        Türkiye Aşı Enstitüsü
+                                    </a>
+                                </li>
+                            </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <h1 class="footer-content-header-small-screen">
+                                HİZMETLER</h1>
+                            <div class="footer-content-text-menu">
+                                <ul>
+                                    <li>
+                                        <a class="footer-content-text" href="#">
+                                            CİMER
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="footer-content-text" href="#">
+                                            SABİM
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <h1 class="footer-content-header-small-screen">
+                                ULUSLARARASI KURULUŞLAR</h1>
+                            <div class="footer-content-text-menu">
+                                <ul>
+                                    <li>
+                                        <a class="footer-content-text" href="#">
+                                            National Institute of Health
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="footer-content-text" href="#">
+                                            World Health Organization
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="footer-content-text" href="#">
+                                            Medical Research Council
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="footer-content-text" href="#">
+                                            Max Planck Society
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="footer-content-text" href="#">
+                                            INSERM
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="footer-content-text" href="#">
+                                            RIKEN
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <h1 class="footer-content-header-small-screen">
+                                İLETİŞİM</h1>
+                            <div class="footer-content-text-menu-small-screen">
+                                <div class="footer-content-iletisim">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <span class="footer-content-iletisim-text">TÜSEB İstanbul Yerleşkesi, Koşuyolu Mahallesi, Koşuyolu Caddesi No: 71 Kadıköy / İSTANBUL</span>
+                                </div>
+                                <a href="tel:+905551234567">
+                                    <div class="footer-content-iletisim">
+                                        <i class="bi bi-telephone"></i>
+                                        <span class="footer-content-iletisim-text">0(216) 547 26 00</span>
+                                    </div>
+                                </a>
+                                <a href="mailto:/">
+                                    <div class="footer-content-iletisim">
+                                        <i class="bi bi-envelope"></i>
+                                        <span class="footer-content-iletisim-text">info@tuseb.gov.tr</span>
+                                    </div>
+                                </a>
+                                <div class="footer-content-iletisim">
+                                    <i class="bi bi-send"></i>
+                                    <span class="footer-content-iletisim-text">KepAdresi:tuseb@hs01.kep.tr</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-middle-line-small-screen"></div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="footer-bottom-small-screen">
+                        <div class="col">
+                            <div class="footer-bottom-logo-small-screen">
+                                <img src="../../assets/image/Teknofest.png" class="footer-bottom-logo-content-small-screen"/>
+                            </div>
+                            <div class="footer-bottom-logo-2-small-screen">
+                                <a><img src="../../assets/image/tuseb-logo-sticky.png" alt="tuseb-logo-sticky"></a>
+                            </div>
+                        </div>
+
+                        <div class="col footer-bottom-copyright-small-screen">
+                            <span class="footer-bottom-copyright">
+                                <a>© 2022. Türkiye Sağlık Enstitüleri Başkanlığı (TÜSEB)</a>
+                            </span>
+                        </div>
+
+                        <div class="col">
+                            <div class="footer-bottom-social-media-small-screen">
+                                <a class="footer-bottom-social-media-item" href="#"><i class="fa-regular fa-envelope"></i></a>
+                                <a class="footer-bottom-social-media-item" href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a class="footer-bottom-social-media-item" href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a class="footer-bottom-social-media-item" href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a class="footer-bottom-social-media-item" href="#"><i class="fa-brands fa-youtube"></i></a>
+                                <a class="footer-bottom-social-media-item" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!-- Burada yukarı kaydırma butonu var -->
+        <div id="scrollTopButton">
+            <a href="#scrolltopbutton" id="scrollTopBtn"><i class="fa-solid fa-chevron-up"></i></a>
+        </div>
+</footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+crossorigin="anonymous"></script>
+<script type="text/javascript" src="../../assets/js/index.js"></script>
+
+<script>
+    $(function() {
+        initPagination(4);
+        initPaginations(4);
+    });
+</script>
+
+</body>
+
+</html>

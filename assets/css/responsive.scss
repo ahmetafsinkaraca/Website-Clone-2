@@ -1,0 +1,540 @@
+/* Bu kısımda topbar işlemi yapılıyor */
+@media (min-width: 1751px) {
+    .header-top {
+        padding-left: 16%;
+        padding-right: 16%;
+    }
+}
+@media (min-width: 1600px) and (max-width: 1750px) {
+    .header-top {
+        padding-left: 13%;
+        padding-right: 13%;
+    }
+}
+
+@media (max-width: 1599px) {
+    .header-top {
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+}
+
+@media (min-width: 1751px) {
+    .header-bottom {
+        padding-left: 15%;
+        padding-right: 15%;
+        background-color: #f3faff;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1750px) {
+    .header-bottom {
+        padding-left: 12%;
+        padding-right: 12%;
+        background-color: #f3faff;
+    }
+}
+@media (max-width: 1599px) {
+    .header-bottom {
+        padding-left: 4%;
+        padding-right: 4%;      
+        max-width: auto;
+        background-color: #f3faff;
+    }
+}
+
+@media (max-width: 1000px) {
+    .header-top {
+        display: none;
+    }
+}
+
+
+  /* Bu kısımda bottombar işlemleri yapılmaktadır */
+  @media (max-width: 1000px) {
+    #navbarNavDropdown {
+        display: none;
+    }
+}
+
+
+  /* Bu kısımda bottombar çizgi işlemleri yapılmakta */
+  @media (max-width: 1000px) {
+    .header-container-bottom-logo-right {
+        display: none;
+    }
+}
+
+@media (min-width: 1000px) {
+    .header-sidebar-button {
+        display: none;
+    }
+}
+
+@media (min-width: 1000px) {
+    .header-dropdown-language {
+        display: none;
+    }
+}
+
+
+/* Bu kısımda footer içeriği yapıldı  */
+@media (max-width: 1000px) {
+    .footer-container {
+        display: none;
+    }
+}
+
+@media (min-width:1001px) {
+    .footer-container-small-screen {
+        display: none;
+    }
+}
+
+
+/* Başlık padding ayarlama kısmı */
+@media (max-width: 500px) {
+    .body-title{
+        padding: 1rem;
+    }
+}
+@media (min-width: 501px) and (max-width: 700px) {
+    .body-title{
+        padding: 2rem;
+    }
+    .body-container-title {
+        max-width: 600px;
+    }
+}
+@media (min-width: 701px) and (max-width: 767px) {
+    .body-title{
+        padding: 2rem;
+    }
+    .body-container-title {
+        max-width: 650px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .body-title{
+        padding: 2rem;
+    }
+    .body-container-title {
+        max-width: 850px;
+    }
+}
+
+
+/* Tüm haberler kısmı */
+
+@media (max-width: 1399px) {
+    .body-card-item {
+        max-width: 370px !important;
+        margin: 0px 15px 40px 15px;
+    }
+    .body-card-item-detay {
+        max-width: 370px !important;
+        margin: 0px 15px 30px 15px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .body-card-title{
+        margin-left: 0px;
+    }
+    .body-card-item {
+        max-width: 295px !important;
+        margin: 0px 0px 30px 0px;
+    }
+    .body-card-item-detay {
+        max-width: 295px !important;
+        margin: 0px 0px 30px 0px;
+    }
+    .body-card-content {
+        padding: 10px;
+        min-height: 140px;
+        max-height: 140px;
+    }
+    .body-card-content-detay {
+        padding: 10px !important;
+        min-height: 140px;
+        max-height: 140px;
+    }
+    .body-container-card-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .body-card-content-date {
+        padding: 0.5rem;
+    }
+    .body-card-content-bottom-title{
+        padding-right: 0px;
+    }
+    .body-card-image{
+        height: 175px;
+    }
+}
+
+@media (max-width: 991px) {
+    .body-card-item {
+        max-width: 340px !important;
+        margin: 0px 0px 30px 0px;
+    }
+    .body-card-item-detay {
+        max-width: 340px !important;
+        margin: 0px 0px 30px 0px;
+    }
+    .body-card-content-detay {
+        padding: 10px !important;
+    }
+    .body-card-image{
+        height: 200px;
+    }
+}
+
+@media (max-width: 767px) {
+    .body-card-item {
+        max-width: 250px !important;
+    }
+    .body-card-item-detay {
+        max-width: 250px !important;
+    }
+    .body-container-card-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .body-card-image{
+        height: 175px;
+    }
+}
+
+@media (max-width: 575px) {
+    .body-card-item {
+        max-width: 260px !important;
+    }
+    .body-card-item-detay {
+        max-width: 260px !important;
+    }
+    .body-container-card-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .body-card-image{
+        height: 175px;
+    }
+    .body-container-card-content{
+        gap: 10px;
+    }
+}
+
+@media (max-width: 553px) {
+    .body-card-item {
+        max-width: 4000px !important;
+    }
+    .body-card-item-detay {
+        max-width: 4000px !important;
+    }
+    .body-container-card-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .body-card-image{
+        height: 240px;
+    }
+    .body-container-card-content{
+        gap: 10px;
+    }
+    .body-card-content-date{
+        border-bottom-left-radius: 20px; 
+        border-bottom-right-radius: 20px;
+    }
+}
+
+
+/* pagination kısmı */
+@media (min-width:401px) {
+    .body-pagination-small-screen {
+        display: none;
+    }
+}
+
+@media (max-width:400px) {
+  .body-pagination {
+      display: none;
+  }
+}
+
+@media (max-width:991px) {
+    .body-pagination-container{
+        display: flex; 
+        align-items:center; 
+        justify-content: center;
+    }
+}
+
+
+/* personel kısmı */
+@media (max-width: 1399px) {
+    .body-card-top-personnel{
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .body-card-top-personnel{
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 575px) {
+    .body-card-top-personnel-text {
+        align-items: center;
+    }
+    .body-card-top-personnel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.1rem;
+        padding-left: 0px;
+    }
+}
+
+
+/* Yayınlar detay kısmı */
+@media (max-width: 1199px) {
+    .body-card-item-yayin-detay{
+        margin: 0px 10px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .body-card-item-yayin-detay{
+        margin: 0px 10px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .body-container-card-yayin-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+/* Genel bilgiler içeriği kısmı */
+@media (max-width: 1199px) {    
+    .body-content-card-detay{
+        min-height: 80px;
+        padding: 0.5rem;
+    }
+}
+
+
+/* Bilgilendirme içeriği kısmı */
+@media (max-width: 500px) {
+    .offcanvas-container-onemli-gunler {
+        min-width: 250px !important;
+        min-height: 300px !important;
+      }
+}
+
+
+/* Takvim kısmı */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .fc .fc-button-group {
+        display: flex;
+    }
+    
+    .fc .fc-toolbar.fc-header-toolbar {
+        display: flex !important;
+        margin-bottom: 20px;        
+    }
+
+    .fc-direction-ltr .fc-toolbar > * > :not(:first-child){
+        margin-left: 4em;
+        margin-top: 0.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .fc .fc-toolbar {
+        align-items: center;
+        display: block;
+        justify-content: center;
+      }
+
+      .fc .fc-button-group{
+        align-items: center;
+        justify-content: center !important;
+      }
+
+      .fc .fc-toolbar.fc-header-toolbar{
+        align-items: center !important;
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center !important;
+      }
+
+      .fc-toolbar-title{
+        padding: 10px;
+      }
+      .fc-toolbar-chunk{
+        display: flex;
+      }
+}
+
+@media (max-width: 599px) {
+    .fc-daygrid-week-number{
+      display: none;
+    }
+}
+
+@media (max-width: 499px) {
+      .fc .fc-daygrid-more-link {
+        display: none;
+      }
+}
+
+
+
+/* 
+// Takvim içeriği kısmı 
+@media (max-width: 1411px) {
+    .card-body-calender-item {
+        max-width: 11.68%;
+    }
+    .card-body-calender-other-month-item {
+        max-width: 11.68%;
+    }
+    .card-body-calender-week-item {
+        max-width: 11.68%;
+    }
+}
+
+@media (max-width: 1199px) {
+    .card-body-calender-item {
+        max-width: 11.35%;
+    }
+    .card-body-calender-other-month-item {
+        max-width: 11.35%;
+    }
+    .card-body-calender-week-item {
+        max-width: 11.35%;
+    }
+}
+
+@media (max-width: 991px) {
+    .card-body-calender-item {
+        max-width: 11.45%;
+    }
+    .card-body-calender-other-month-item {
+        max-width: 11.45%;
+    }
+    .card-body-calender-week-item {
+        max-width: 11.45%;
+    }
+}
+
+@media (max-width: 767px) {
+    .card-body-calender-item {
+        max-width: 11.1%;
+    }
+    .card-body-calender-other-month-item {
+        max-width: 11.1%;
+    }
+    .card-body-calender-week-item {
+        max-width: 11.1%;
+    }
+}
+
+@media (max-width: 536px) {
+    .card-body-calender-item-content {
+        border: none; 
+        box-shadow: none;
+    }
+    .card-body-calender .card-body {
+         min-height: 0px;
+    }
+    .card-body-calender-item {
+        flex: 1 1 10%;
+        max-width: 11%;
+        max-height: 50px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-body-calender-other-month-item {
+        flex: 1 1 10%;
+        max-width: 11%;
+        max-height: 50px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-body-calender-week-item {
+        flex: 1 1 10%;
+        max-width: 11%;
+        max-height: 50px;
+        display: flex;
+        align-items: center;
+    }
+    .card-body-calender-item-body-text{
+        display: none;
+    }
+    .card-body-calender-item-text{
+        font-size: 1rem;
+    }
+    .card-body{
+        min-height: 0px;
+    }
+}
+
+ @media (max-width: 333px) {
+    .card-body-calender-item-content {
+        border: none; 
+        box-shadow: none;
+    }
+    .card-body-calender-item {
+        flex: 1 1 10%;
+        max-width: 9.8%;
+        max-height: 50px;
+        margin: 0px 0.189rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-body-calender-other-month-item {
+        flex: 1 1 10%;
+        max-width: 9.8%;
+        max-height: 50px;
+        margin: 0px 0.189rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-body-calender-week-item {
+        flex: 1 1 10%;
+        max-width: 9.8%;
+        max-height: 50px;
+        margin: 0px 0.189rem;
+        display: flex;
+        align-items: center;
+    }
+    .card-body-calender-item-body-text{
+        display: none;
+    }
+    .card-body-calender-item-text{
+        font-size: 1rem;
+    }
+    .card-body{
+        padding: 20px 10px;
+        min-height: 0px;
+    }
+}  
+*/
