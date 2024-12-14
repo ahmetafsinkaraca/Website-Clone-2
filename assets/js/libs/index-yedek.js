@@ -205,7 +205,7 @@ $(document).ready(function() {
   });
   
 
-/* Burada yukarı taşıma işlemi yapılmakta */
+/* Burada yukarı tRANDOMma işlemi yapılmakta */
 let goTopBtn = document.getElementById("scrollTopBtn");
 
 window.onload = scrollFunction;

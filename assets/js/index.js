@@ -252,7 +252,7 @@ $(document).ready(function () {
 
 
 
-/* Burada yukarı taşıma işlemi yapılmakta */
+/* Burada yukarı tRANDOMma işlemi yapılmakta */
 $(document).ready(function() {
   let goTopBtn = $("#scrollTopBtn");
 
